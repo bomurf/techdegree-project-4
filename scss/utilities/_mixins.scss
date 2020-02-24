@@ -1,0 +1,9 @@
+@mixin mq {
+  min-width: $breakpoint-tablet;
+}
+
+@mixin center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
