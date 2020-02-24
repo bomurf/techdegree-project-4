@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@include mq($breakpoint-tablet) {
+@include mq(768px) {
   .container {
     max-width: $max-width;
     @include center;
