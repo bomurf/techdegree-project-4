@@ -11,10 +11,8 @@
   text-transform: uppercase;
   border-radius: 5px;
   &:hover {
-    background-color: lighten($color: #fff, $amount: 15%);
-    color: $teal;
+    background-color: lighten($color: $teal, $amount: 15%);
     transition: 0.4s ease-in;
-    border: 1px solid $teal;
   }
 }
 
